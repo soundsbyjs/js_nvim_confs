@@ -1,4 +1,4 @@
-# js_vim_confs
+# js_nvim_confs
 My confs for neovim
 
 
