@@ -44,6 +44,7 @@ let mapleader = ","
 call plug#begin()
 										" ///////////// essentials ////////////////
 										
+										
 Plug 'preservim/NERDTree'				" NERDTree is a file viewer for NERDS
 										" note this requires python nvim
 										" pip install neovim for that
@@ -51,6 +52,8 @@ Plug 'vim-airline/vim-airline'			" lean and mean status & tabline
 Plug 'nathanaelkane/vim-indent-guides'	" indentation lines..... but doesn't vim have this built in?
 Plug 'jiangmiao/auto-pairs'				" auto pair your brackets for maximum visual studio
 Plug 'ycm-core/YouCompleteMe'			" completion engine with a ton of features
+
+
 										" /////////////   themes   ///////////////
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 	" pwetty colors
