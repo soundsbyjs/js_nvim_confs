@@ -8,7 +8,7 @@ config on a VM one day, so here's my init.vim
 # Features
 Transparent background so you can use a dropdown terminal
 
-Italics for function defs and comments
+<i>Italics for function defs and comments</i>
 
 The sexiest theme in the history of vim
 
