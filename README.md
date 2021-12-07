@@ -23,6 +23,7 @@ The only good leader key ("," of course)
 3. install javascript for coc-nvim
 
 ```sudo curl -sL install-node.vercel.app/lts | sudo bash```
+
 ```sudo pacman -S ccls``` for the c/c++ LSP
 
 4. run :PlugInstall
