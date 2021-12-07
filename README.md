@@ -5,7 +5,7 @@ My confs for neovim
 Sup. I will inevitably brick my system or get fed up with using the default
 config on a VM one day, so here's my init.vim
 
-# Features:
+# Features
 Transparent background so you can use a dropdown terminal
 
 Italics for function defs and comments
@@ -16,7 +16,7 @@ Syntax highlighting
 
 The only good leader key ("," of course)
 
-# installation
+# Installation
 
 1. make a loop de loop and git pull, and your neovim is looking cool!
 
@@ -36,7 +36,7 @@ The only good leader key ("," of course)
 
 6. get yourself a sexy font. try nerdfonts-git on the AUR. I'm partial to roboto mono medium
 
-# changelog
+# Changelog
 
 ```12/7/21```
 
