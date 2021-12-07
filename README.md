@@ -30,9 +30,9 @@ The only good leader key ("," of course)
 
 ```sudo pacman -S ccls``` for the c/c++ LSP
 
-4. run :PlugInstall
+4. run ```:PlugInstall```
 
-5. run :CocInstall, config for your favorite languages
+5. run ```:CocInstall```, config for your favorite languages
 
 6. get yourself a sexy font. try nerdfonts-git on the AUR. I'm partial to roboto mono medium
 
