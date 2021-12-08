@@ -10,7 +10,7 @@ Transparent background so you can use a dropdown terminal
 
 <i>Italics for function defs and comments</i>
 
-The sexiest theme in the history of vim
+The sexiest theme in the history of vim (tokyo night!)
 
 Syntax highlighting
 
