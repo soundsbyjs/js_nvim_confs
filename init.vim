@@ -17,14 +17,14 @@
 " Personal prefs with vim's built in schenanigans
 
 set nocompatible  	" Disable compatibility 
-filetype on			" Enable type file detection
+filetype on		" Enable type file detection
 filetype plugin on 	" Enable plugins and load plugin 
 filetype indent on	" Load an indent file for the detected file type.
-syntax on			" Syntax highlighting 
+syntax on		" Syntax highlighting 
 set tabstop=4		" Set tab width to 4
 set ignorecase		" Ignore capital letters during search.
 set smartcase		" ...unless you specify a capital letter
-set relativenumber  " lines appear as relative to the cursor
+set relativenumber 	" lines appear as relative to the cursor
 set guicursor=		" makes the cursor not look stupid
 set noerrorbells	" no idea what this does
 set shiftwidth=4	" ^^
@@ -39,22 +39,21 @@ call plug#begin()
 " ///////////// essentials ////////////////
 										
 										
-Plug 'preservim/NERDTree'				" NERDTree is a file viewer for NERDS
-										" note this requires python nvim
-										" pip install neovim for that
-Plug 'vim-airline/vim-airline'			" lean and mean status & tabline
+Plug 'preservim/NERDTree'		" NERDTree is a file viewer for NERDS
+					" note this requires python nvim
+					" pip install neovim for that
+Plug 'vim-airline/vim-airline'		" lean and mean status & tabline
 Plug 'nathanaelkane/vim-indent-guides'	" indentation lines..... but doesn't vim have this built in?
-" Plug 'ycm-core/YouCompleteMe'			" completion engine with a ton of features
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 
 " /////////////   themes   ///////////////
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 	" pwetty colors
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }				" theme
-Plug 'vim-airline/vim-airline-themes'							" airline theme
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }		" theme
+Plug 'vim-airline/vim-airline-themes'				" airline theme
 
-" ///////////// bells/whistles /////////
+
 call plug#end()
 
 
@@ -64,16 +63,6 @@ call plug#end()
 " NERDTree
 " 	toggle nt with ,n
 nnoremap <leader>n :NERDTreeToggle<CR>
-
-" YouCompleteMe
-" 	some prefs for ycm
-let g:ycm_complete_in_strings = 0
-let g:ycm_show_diagnostics_ui = 0
-let g:ycm_enable_diagnostic_signs = 0
-let g:ycm_echo_current_diagnostic = 0
-let g:ycm_log_level = 'critical'
-let g:ycm_autoclose_preview_window_after_completion = 1
-let g:ycm_autoclose_preview_window_after_insertion = 1
 
 " treesitter
 " 	treesitter is a syntax highlighting doo dad. it's sometimes kind of slow but
